@@ -1,0 +1,2 @@
+$Encoded = "QWRkLVR5cGUgLUFzc2VtYmx5TmFtZSBTeXN0ZW0uc3BlZWNoCiRzcGVhayA9IE5ldy1PYmplY3QgU3lzdGVtLlNwZWVjaC5TeW50aGVzaXMuU3BlZWNoU3ludGhlc2l6ZXIKCiRzcGVhay5Wb2x1bWUgPSAxMDAKCiRzcGVhay4oIk9IIEFIIEFIIEFIIEFIIik"
+iex ([System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String($Encoded)))
